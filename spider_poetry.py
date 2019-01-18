@@ -1,20 +1,11 @@
 from urllib import request
 import re
 import os
-# class Poetry():
-#     def __init__(self, name, author, content):
-#         self.name = name
-#         self.author = author
-#         self.content = content
-#     def get_name(self):
-#         return self.name
-#     def get_author(self):
-#         return self.author
-#     def get_content(self):
-#         return self.content
-#     def show_poetry(self):
-#         print('----------------' + self.name + '\n' + self.author + '\n' + self.content + '\n')
-
+'''
+古诗文网 https://www.gushiwen.org/shiwen/
+无反爬机制
+作者ldhldh
+'''
 def pr_runtime(func):
     '''
     装饰器：增加运行时间打印
